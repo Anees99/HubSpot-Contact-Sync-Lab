@@ -1,0 +1,7 @@
+external_id,email,firstname,lastname,phone
+lead-001, ALICE@example.com ,Alice,Demo,+92 300 0000001
+lead-001,alice@example.com,Alice,Demo,+923000000001
+lead-002,bob@example.com,Bob,Demo,
+lead-003,bad-address,Invalid,Demo,
+lead-004,shared@example.com,One,Demo,
+lead-005,shared@example.com,Two,Demo,

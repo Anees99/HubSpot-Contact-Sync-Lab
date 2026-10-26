@@ -1,0 +1,29 @@
+test_bad_batch_size (test_sync.SyncTests.test_bad_batch_size) ... ok
+test_bad_email (test_sync.SyncTests.test_bad_email) ... ok
+test_batching (test_sync.SyncTests.test_batching) ... ok
+test_blank_not_clear (test_sync.SyncTests.test_blank_not_clear) ... ok
+test_custom_unique_key (test_sync.SyncTests.test_custom_unique_key) ... ok
+test_deterministic_hash (test_sync.SyncTests.test_deterministic_hash) ... ok
+test_email_conflict_quarantines_both (test_sync.SyncTests.test_email_conflict_quarantines_both) ... ok
+test_empty_id (test_sync.SyncTests.test_empty_id) ... ok
+test_errors_require_review (test_sync.SyncTests.test_errors_require_review) ... ok
+test_exact_duplicates (test_sync.SyncTests.test_exact_duplicates) ... ok
+test_header_duplicate (test_sync.SyncTests.test_header_duplicate) ... ok
+test_id_conflict_quarantines_both (test_sync.SyncTests.test_id_conflict_quarantines_both) ... ok
+test_invalid_phone (test_sync.SyncTests.test_invalid_phone) ... ok
+test_missing_header (test_sync.SyncTests.test_missing_header) ... ok
+test_no_auth_retry (test_sync.SyncTests.test_no_auth_retry) ... ok
+test_normalization (test_sync.SyncTests.test_normalization) ... ok
+test_pending_is_not_success (test_sync.SyncTests.test_pending_is_not_success) ... ok
+test_phone (test_sync.SyncTests.test_phone) ... ok
+test_request_contract (test_sync.SyncTests.test_request_contract) ... ok
+test_response_partial (test_sync.SyncTests.test_response_partial) ... ok
+test_response_success (test_sync.SyncTests.test_response_success) ... ok
+test_retry_after (test_sync.SyncTests.test_retry_after) ... ok
+test_retry_bound (test_sync.SyncTests.test_retry_bound) ... ok
+test_unknown_columns (test_sync.SyncTests.test_unknown_columns) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.079s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "id": "synthetic-crm-001",
+      "properties": {
+        "portfolio_external_id": "lead-001"
+      }
+    },
+    {
+      "id": "synthetic-crm-002",
+      "properties": {
+        "portfolio_external_id": "lead-002"
+      }
+    }
+  ]
+}

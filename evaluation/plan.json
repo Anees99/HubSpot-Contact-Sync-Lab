@@ -1,0 +1,54 @@
+{
+  "mode": "dry-run",
+  "schema_version": "1",
+  "endpoint": "https://api.hubapi.com/crm/v3/objects/contacts/batch/upsert",
+  "required_unique_property": "portfolio_external_id",
+  "batches": [
+    {
+      "inputs": [
+        {
+          "id": "lead-001",
+          "idProperty": "portfolio_external_id",
+          "properties": {
+            "email": "alice@example.com",
+            "firstname": "Alice",
+            "lastname": "Demo",
+            "phone": "+923000000001",
+            "portfolio_external_id": "lead-001"
+          }
+        },
+        {
+          "id": "lead-002",
+          "idProperty": "portfolio_external_id",
+          "properties": {
+            "email": "bob@example.com",
+            "firstname": "Bob",
+            "lastname": "Demo",
+            "portfolio_external_id": "lead-002"
+          }
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "row": 5,
+      "reason": "Invalid email"
+    },
+    {
+      "row": 6,
+      "reason": "Conflicting identity; manual review required"
+    },
+    {
+      "row": 7,
+      "reason": "Conflicting identity; manual review required"
+    }
+  ],
+  "summary": {
+    "input_rows": 6,
+    "planned_contacts": 2,
+    "duplicate_rows_skipped": 1,
+    "rejected_rows": 3
+  },
+  "plan_sha256": "aa1652cef2aefd600f27de95d9bb87c1170ff7518c90aeb56eaf9ad255df0104"
+}
